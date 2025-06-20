@@ -1,0 +1,226 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 4,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 25,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 6,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.asset.image": 5,
+			"com.tldraw.asset.video": 5,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 2,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 2,
+			"com.tldraw.shape.geo": 9,
+			"com.tldraw.shape.note": 8,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 0,
+			"com.tldraw.shape.arrow": 5,
+			"com.tldraw.shape.highlight": 1,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 4,
+			"com.tldraw.shape.video": 2,
+			"com.tldraw.binding.arrow": 0
+		}
+	},
+	"records": [
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "two pointer",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": 657.7037037037037,
+			"y": 115.7407407407407,
+			"lastActivityTimestamp": 1750389416887,
+			"meta": {}
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 1060,
+				"h": 621
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:i7VxfH1O6reH4E8-pFYrH",
+			"typeName": "instance"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:Bm94e-YEVUYNWTwTtZI_n"
+			],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": -24.055835723876953,
+			"y": 0,
+			"z": 1,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": 158,
+			"y": 103,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Bm94e-YEVUYNWTwTtZI_n",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 465.28125,
+				"text": "two pointer:\n\nthere are three types of two pointer.\n1. parrell pointer\nleft on start\n&\nright on end\n\n2.\n\nsolve these leetcode problem:\n283. move zeros\n11. container with most water",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "page:i7VxfH1O6reH4E8-pFYrH",
+			"name": "patterns & data structures",
+			"index": "a065H",
+			"typeName": "page"
+		},
+		{
+			"x": 83.03703703703701,
+			"y": 337.34567901234567,
+			"z": 0.81,
+			"meta": {},
+			"id": "camera:page:i7VxfH1O6reH4E8-pFYrH",
+			"typeName": "camera"
+		},
+		{
+			"editingShapeId": "shape:YtxqnMVGQT0dNIlgL0Vlg",
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:YtxqnMVGQT0dNIlgL0Vlg"
+			],
+			"hoveredShapeId": "shape:YtxqnMVGQT0dNIlgL0Vlg",
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:i7VxfH1O6reH4E8-pFYrH",
+			"pageId": "page:i7VxfH1O6reH4E8-pFYrH",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 223,
+			"y": 107,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:2xK8zCM_NUbwDKno7bMYx",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 268.078125,
+				"text": "Patterns:\n\n1. two pointer\n2. sliding window\n3. Divide and conquer\n4. binary search\n5. dp\n6. backtracking\n7. greedy algorithms\n8. bfs & dfs",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:i7VxfH1O6reH4E8-pFYrH",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": 647.8271604938273,
+			"y": 95.98765432098764,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:YtxqnMVGQT0dNIlgL0Vlg",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 203.71875,
+				"text": "Data Structures:\n\n1. Priority Queue",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:i7VxfH1O6reH4E8-pFYrH",
+			"index": "a26mk",
+			"typeName": "shape"
+		}
+	]
+}
