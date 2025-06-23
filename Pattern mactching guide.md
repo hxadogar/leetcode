@@ -84,17 +84,6 @@
 
 ---
 
-# 📌 Golden Rules of Thumb
-
-- 💡 **Brute force first**, then identify what’s slow.
-- 🔍 If you're **looking for patterns or conditions** → Use hashing or two pointers.
-- 🔁 If it's about **"number of ways" or overlapping subproblems** → Think DP.
-- 📊 If input is **sorted** → Try two pointers or binary search.
-- 📦 If it’s **about subsets, combinations, or permutations** → Try recursion/backtracking.
-- 🌲 If recursive tree-like breakdown works → Use **divide & conquer** or DP.
-
----
-
 # 🧠 Problem-Solving Thinking Steps (for every problem)
 
 1. **Understand** the problem and constraints.
