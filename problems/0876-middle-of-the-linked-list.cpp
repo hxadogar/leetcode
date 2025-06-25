@@ -2,17 +2,17 @@
 using namespace std;
 
 //  * Definition for singly-linked list.
-struct ListNode {
+struct Node {
     int val;
-    ListNode *next;
-    ListNode() : val(0), next(nullptr) {}
-    ListNode(int x) : val(x), next(nullptr) {}
-    ListNode(int x, ListNode *next) : val(x), next(next) {}
+    Node *next;
+    Node() : val(0), next(nullptr) {}
+    Node(int x) : val(x), next(nullptr) {}
+    Node(int x, Node *next) : val(x), next(next) {}
 };
 class Solution {
 public:
-    ListNode* middleNode(ListNode* head) {
-        ListNode* cur = head;
+    Node* middleNode(Node* head) {
+        Node* cur = head;
         int counter = 0;
         
         while(head->next != nullptr) {

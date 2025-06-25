@@ -257,7 +257,7 @@
 				"color": "black",
 				"size": "m",
 				"w": 297.140625,
-				"text": "Learned & best in these\n\n1. two pointer\n1.2 slow fast pointer\n1.3 start end pointer\n2. sliding window\n2.1 fixed size window",
+				"text": "Pattern\nLearned & best in these\n\n1. two pointer\n1.2 slow fast pointer\n1.3 start end pointer\n\n2. sliding window\n2.1 fixed size window",
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": true,
@@ -321,7 +321,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 780,
+			"x": 638.7105624142664,
 			"y": 159,
 			"rotation": 0,
 			"isLocked": false,
@@ -346,15 +346,17 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 173.1328125,
-			"y": 157.71875,
-			"lastActivityTimestamp": 1750682337741,
+			"x": 327.640625,
+			"y": 1008.328125,
+			"lastActivityTimestamp": 1750745169919,
 			"meta": {}
 		},
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {},
+			"stylesForNextShape": {
+				"tldraw:color": "light-blue"
+			},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
@@ -368,7 +370,7 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1066,
+				"w": 1318,
 				"h": 621
 			},
 			"insets": [
@@ -393,16 +395,14 @@
 			"meta": {},
 			"duplicateProps": null,
 			"id": "instance:instance",
-			"currentPageId": "page:9FSCSsJiP2JqBPG5Mvfkt",
+			"currentPageId": "page:page",
 			"typeName": "instance"
 		},
 		{
 			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [
-				"shape:rZ5eyheDgxzf-sjPL5A6s"
-			],
-			"hoveredShapeId": "shape:rZ5eyheDgxzf-sjPL5A6s",
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -425,10 +425,12 @@
 			"typeName": "instance_page_state"
 		},
 		{
-			"editingShapeId": null,
+			"editingShapeId": "shape:B97yuDNjdQBMW7aaAqFA5",
 			"croppingShapeId": null,
-			"selectedShapeIds": [],
-			"hoveredShapeId": null,
+			"selectedShapeIds": [
+				"shape:B97yuDNjdQBMW7aaAqFA5"
+			],
+			"hoveredShapeId": "shape:B97yuDNjdQBMW7aaAqFA5",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -467,20 +469,66 @@
 			"typeName": "camera"
 		},
 		{
-			"x": 139.359375,
-			"y": 61.671875,
+			"x": 177.359375,
+			"y": -560.328125,
 			"z": 1,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
 		},
 		{
-			"x": 0,
-			"y": 0,
-			"z": 1,
+			"x": 424.95541838134426,
+			"y": 29.50600137174206,
+			"z": 0.7290000000000001,
 			"meta": {},
 			"id": "camera:page:z9PwoICdBjO-a-i41bAcO",
 			"typeName": "camera"
+		},
+		{
+			"x": -94.5,
+			"y": 173.125,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:3WwZ82H0dPVKUxObQkjxf",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 233.15625,
+				"text": "DS\n\nsingle linked list\ndouble linked list\n\nstack\nqueues - dequeues",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:z9PwoICdBjO-a-i41bAcO",
+			"index": "a31wC",
+			"typeName": "shape"
+		},
+		{
+			"x": 155.640625,
+			"y": 455.328125,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:B97yuDNjdQBMW7aaAqFA5",
+			"type": "text",
+			"props": {
+				"color": "light-blue",
+				"size": "m",
+				"w": 825.9375,
+				"text": "Fast / slow pointer\nmostly use in:\n1. linked list\n2. array\n\nit mostly use in the relative problems. LIke:\n1. finding cycle in a linked list\nboth run on it speed like:\nslow jump only 1\nfast jump 2 step\n- so if any point both match its mean there are cycle in linked list\n\n2. find middle node of linked list\n\nPROBLEM RELATIVE TO IT:\n- 141. Linked List Cycle\n- 876. Find Middle of Node\n- 202. Happy Number\n\nTC = O(N)\nSC = O(1)",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a26T9",
+			"typeName": "shape"
 		}
 	]
 }

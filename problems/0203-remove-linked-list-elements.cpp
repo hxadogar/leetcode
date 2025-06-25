@@ -2,19 +2,19 @@
 using namespace std;
 
 // Definition for singly-linked list.
-struct ListNode {
+struct Node {
     int val;
-    ListNode *next;
-    ListNode() : val(0), next(nullptr) {}
-    ListNode(int x) : val(x), next(nullptr) {}
-    ListNode(int x, ListNode *next) : val(x), next(next) {}
+    Node *next;
+    Node() : val(0), next(nullptr) {}
+    Node(int x) : val(x), next(nullptr) {}
+    Node(int x, Node *next) : val(x), next(next) {}
 };
 
 class Solution {
 public:
-    ListNode* removeElements(ListNode* head, int val) {
-        ListNode* dummy = new ListNode(0, head);
-        ListNode* cur = dummy;
+    Node* removeElements(Node* head, int val) {
+        Node* dummy = new Node(0, head);
+        Node* cur = dummy;
 
         while (cur->next != nullptr) {
             if (cur->next->val == val) {
@@ -24,7 +24,7 @@ public:
             }
         }
 
-        ListNode* newHead = dummy->next;
+        Node* newHead = dummy->next;
         delete dummy;
         return newHead;
     }
