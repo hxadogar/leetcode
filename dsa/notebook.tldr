@@ -344,18 +344,64 @@
 			"typeName": "shape"
 		},
 		{
+			"x": -94.5,
+			"y": 173.125,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:3WwZ82H0dPVKUxObQkjxf",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 217.265625,
+				"text": "DS\n\nsingle linked list\ndouble linked list\n\nstack\nqueues\n\ntree",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:z9PwoICdBjO-a-i41bAcO",
+			"index": "a31wC",
+			"typeName": "shape"
+		},
+		{
+			"x": 155.640625,
+			"y": 455.328125,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:B97yuDNjdQBMW7aaAqFA5",
+			"type": "text",
+			"props": {
+				"color": "light-blue",
+				"size": "m",
+				"w": 825.9375,
+				"text": "Fast / slow pointer\nmostly use in:\n1. linked list\n2. array\n\nit mostly use in the relative problems. LIke:\n1. finding cycle in a linked list\nboth run on it speed like:\nslow jump only 1\nfast jump 2 step\n- so if any point both match its mean there are cycle in linked list\n\n2. find middle node of linked list\n\nPROBLEM RELATIVE TO IT:\n- 141. Linked List Cycle\n- 876. Find Middle of Node\n- 202. Happy Number\n\nTC = O(N)\nSC = O(1)",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a26T9",
+			"typeName": "shape"
+		},
+		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 327.640625,
-			"y": 1008.328125,
-			"lastActivityTimestamp": 1750745169919,
+			"x": 481,
+			"y": 246,
+			"lastActivityTimestamp": 1750861442942,
 			"meta": {}
 		},
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
 			"stylesForNextShape": {
-				"tldraw:color": "light-blue"
+				"tldraw:color": "green"
 			},
 			"brush": null,
 			"scribbles": [],
@@ -395,7 +441,7 @@
 			"meta": {},
 			"duplicateProps": null,
 			"id": "instance:instance",
-			"currentPageId": "page:page",
+			"currentPageId": "page:NDaV469qiuw4zLbcpI9Pf",
 			"typeName": "instance"
 		},
 		{
@@ -425,12 +471,10 @@
 			"typeName": "instance_page_state"
 		},
 		{
-			"editingShapeId": "shape:B97yuDNjdQBMW7aaAqFA5",
+			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [
-				"shape:B97yuDNjdQBMW7aaAqFA5"
-			],
-			"hoveredShapeId": "shape:B97yuDNjdQBMW7aaAqFA5",
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -469,9 +513,9 @@
 			"typeName": "camera"
 		},
 		{
-			"x": 177.359375,
-			"y": -560.328125,
-			"z": 1,
+			"x": 548.0519776876267,
+			"y": 31.08316430020284,
+			"z": 0.4773157042796847,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -485,49 +529,56 @@
 			"typeName": "camera"
 		},
 		{
-			"x": -94.5,
-			"y": 173.125,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 1,
 			"meta": {},
-			"id": "shape:3WwZ82H0dPVKUxObQkjxf",
-			"type": "text",
-			"props": {
-				"color": "black",
-				"size": "m",
-				"w": 233.15625,
-				"text": "DS\n\nsingle linked list\ndouble linked list\n\nstack\nqueues - dequeues",
-				"font": "draw",
-				"textAlign": "start",
-				"autoSize": true,
-				"scale": 1
-			},
-			"parentId": "page:z9PwoICdBjO-a-i41bAcO",
-			"index": "a31wC",
-			"typeName": "shape"
+			"id": "page:NDaV469qiuw4zLbcpI9Pf",
+			"name": "tree",
+			"index": "a31x0",
+			"typeName": "page"
 		},
 		{
-			"x": 155.640625,
-			"y": 455.328125,
+			"x": 0,
+			"y": 0,
+			"z": 1,
+			"meta": {},
+			"id": "camera:page:NDaV469qiuw4zLbcpI9Pf",
+			"typeName": "camera"
+		},
+		{
+			"editingShapeId": "shape:iUuy3ybwg8EbByRrZdwXV",
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:iUuy3ybwg8EbByRrZdwXV"
+			],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:NDaV469qiuw4zLbcpI9Pf",
+			"pageId": "page:NDaV469qiuw4zLbcpI9Pf",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 179,
+			"y": 137.796875,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
 			"meta": {},
-			"id": "shape:B97yuDNjdQBMW7aaAqFA5",
+			"id": "shape:iUuy3ybwg8EbByRrZdwXV",
 			"type": "text",
 			"props": {
-				"color": "light-blue",
+				"color": "green",
 				"size": "m",
-				"w": 825.9375,
-				"text": "Fast / slow pointer\nmostly use in:\n1. linked list\n2. array\n\nit mostly use in the relative problems. LIke:\n1. finding cycle in a linked list\nboth run on it speed like:\nslow jump only 1\nfast jump 2 step\n- so if any point both match its mean there are cycle in linked list\n\n2. find middle node of linked list\n\nPROBLEM RELATIVE TO IT:\n- 141. Linked List Cycle\n- 876. Find Middle of Node\n- 202. Happy Number\n\nTC = O(N)\nSC = O(1)",
+				"w": 120.1875,
+				"text": "tree have",
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": true,
 				"scale": 1
 			},
-			"parentId": "page:page",
-			"index": "a26T9",
+			"parentId": "page:NDaV469qiuw4zLbcpI9Pf",
+			"index": "a1",
 			"typeName": "shape"
 		}
 	]
